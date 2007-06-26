@@ -1,0 +1,6 @@
+0.9.1 [6/26/2007]
+	- fixed support for FedEx Ground/HomeDelivery services;
+	- removed "*Collection" classes (using generics instead);
+	
+0.9.0 [pre-6/25/2007]
+initial public release;
