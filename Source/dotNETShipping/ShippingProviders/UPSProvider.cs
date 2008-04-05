@@ -157,6 +157,7 @@ namespace dotNETShipping.ShippingProviders
 				writer.WriteElementString("Width", this._shipment.Packages[i].Width.ToString());
 				writer.WriteElementString("Height", this._shipment.Packages[i].Height.ToString());
 				writer.WriteEndElement(); // </Dimensions>
+				writer.WriteEndElement(); // </Package>
 			}
 			writer.WriteEndDocument();
 			writer.Flush();

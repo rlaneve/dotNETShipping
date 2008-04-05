@@ -1,26 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNETShipping", "dotNETShipping\dotNETShipping.csproj", "{0CAC6D52-FFA9-4350-8E36-A22A2A4A8B88}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console Sample", "Console Sample\Console Sample.csproj", "{D83C0AAE-DAC9-4879-85A4-5CA556587208}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{381D702E-9B98-4CEF-9009-9564136A0F9E}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
 	ProjectSection(SolutionItems) = preProject
 		ChangeLog.txt = ChangeLog.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNETShipping", "dotNETShipping\dotNETShipping.csproj", "{0CAC6D52-FFA9-4350-8E36-A22A2A4A8B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console Sample", "Console Sample\Console Sample.csproj", "{D83C0AAE-DAC9-4879-85A4-5CA556587208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
